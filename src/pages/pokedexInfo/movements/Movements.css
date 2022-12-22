@@ -1,0 +1,21 @@
+.container_moves {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+.move {
+	background-color: #E5E5E5;
+	font-size: 20px;
+	padding: 0.5rem;
+	border-radius: 20px;
+}
+
+.padding_section {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+.padding_section h2{
+	font-size: clamp(35px, 3rem, 3vw);
+}

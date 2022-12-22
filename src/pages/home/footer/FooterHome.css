@@ -1,0 +1,47 @@
+.circle {
+    width: 12%;
+    max-width: 80px;
+    aspect-ratio: 1;
+    background-color: var(--colorBlack);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 46%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.circle_white {
+    background-color: white;
+    width: 80%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle_black { 
+    background-color: var(--colorBlack);
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.rectangle_red {
+    width: 100%;
+    height: 60%;
+    background-color: #D93F3F;
+}
+.rectangle_black {
+    width: 100%;
+    height: 40%;
+}
+.footer_home {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
